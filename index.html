@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form-sample</title>
+<link rel="stylesheet" href="icons/css/font-awesome.css">
+<style>
+.forms{
+	width:80%;
+	background-color:white;
+	border-radius:3px;
+	margin-left:100px;
+	padding:10px;
+}
+.form-controls{
+	width:70%;
+	height:100%;
+	padding:10px;
+	background-color:lightgray;
+	border:1px solid #ccc;
+	border-radius:3px;
+	color:black;
+}
+.inputs{
+	width:80%;
+	padding:10px;
+}
+.pop-save{
+	background-color:green;
+	border:1px solid green;
+	border-radius:3px;
+	color:white;
+	padding:8px;
+	margin-top:10px;
+	font-size:20px;
+}
+.basic{
+	Position:relative;
+}
+.close_btn{
+	border:1px solid green;
+	background-color:green;
+	color:white;
+	padding:6px;
+	Position:absolute;
+	top:50px;
+	right:500px;
+}
+
+</style>
+</head>
+<body>
+	<div class="forms">
+		<form id="edit_profile">
+			<div class="form-controls">
+			<h2 class="basic">Basic Info</h2>
+			<button class="close_btn">close <i class="fa fa-times" aria-hidden="true"></i></button>
+			<div class="form-control">
+				<p>First Name*</p>
+				<input type="text" name="fname" class="inputs" id="editFname"/>
+			</div>
+			<div class="form-control">
+				<p>Last Name*</p>
+				<input type="text" name="lname" class="inputs" id="editLname"/>
+			</div>
+			<div class="form-control">
+				<p>HeadLine*</p>
+				<input type="text" name="headline" class="inputs" id="headline"/>
+			</div>
+			<h2>Current position</h2>
+			<div class="form-control">
+				<p>Position*</p>
+				<input type="text" name="Position" class="inputs" id="Position"/>
+			</div>
+			<h2>Location</h2>
+			<div class="form-control">
+				<p>Country / Region*</p>
+				<input type="text" name="Country" class="inputs" id="placeCoureg"/>
+			</div>
+			<div class="form-control">
+				<p>city*</p>
+				<input type="text" name="placeity" class="inputs" id="placeity"/>
+			</div>
+			<div class="form-control">
+				<p>state*</p>
+				<input type="text" name="placestate" class="inputs" id="placestate"/>
+			</div>
+			<div class="popop_edit_submit">
+				<button type="button" class="pop-save">save</button>
+			</div>
+		</form>
+	</div>									
+						
+</body>
+</html>
